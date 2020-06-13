@@ -19,7 +19,7 @@ let repoSchema = mongoose.Schema({
   name: String,
   user: String,
   url: String,
-  repo_id: Number,
+  repo_id: {type: Number,unique: true},
   views: Number
 });
 
