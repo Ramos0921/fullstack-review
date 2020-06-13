@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/fetcher',{
+// mongodb+srv://Eduardo:Cruzazul$10@cluster0-ck1u1.mongodb.net/<dbname>?retryWrites=true&w=majority
+mongoose.connect(process.env.MONGODB_URI||'mongodb://localhost/fetcher',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
 } );
