@@ -21,7 +21,7 @@
       "received_events_url": "https://api.github.com/users/octocat/received_events",
       "type": "User",
       "site_admin": false
-    },
+      },
     "private": false,
     "html_url": "https://github.com/octocat/git-consortium",
     "description": "This repo is for demonstration purposes only.",
@@ -87,6 +87,7 @@
     "watchers": 7,
     "default_branch": "master"
   },
+
   {
     "id": 20978623,
     "name": "hello-worId",
@@ -175,6 +176,7 @@
     "watchers": 14,
     "default_branch": "master"
   },
+
   {
     "id": 1296269,
     "name": "Hello-World",
@@ -197,7 +199,7 @@
       "received_events_url": "https://api.github.com/users/octocat/received_events",
       "type": "User",
       "site_admin": false
-    },
+      },
     "private": false,
     "html_url": "https://github.com/octocat/Hello-World",
     "description": "My first repository on GitHub!",
